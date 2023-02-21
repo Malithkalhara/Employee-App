@@ -7,7 +7,7 @@ import CurvedButton from "@/components/CurvedButton";
 import ToggleIconButton from "@/components/ToggleIconButton";
 import GridView from '@/components/GridView';
 import DataTable from '@/components/DataTable';
-import useStyles from "./styles";
+import useStyles from "../../styles/styles";
 
 const List = ({employees}) => {
   const router = useRouter();
